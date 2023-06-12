@@ -1,0 +1,121 @@
+body{
+    color: rgb(73, 69, 69);
+    text-align: center;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    font-family: 'Leckerli One', cursive;
+    font-size: 6rem;
+    font-weight: 300;
+    color: #147BF7;
+}
+h2{
+    font-family: 'Noto Serif', serif;
+    font-size: 2.5rem;
+    color: #147BF7;
+}
+h3{
+    font-family: 'Libre Baskerville', serif;
+    color: #147BF7; 
+}
+a{
+    font-family: 'Lato', sans-serif;
+    color: #3513ED;
+    text-decoration: none;
+    padding: 0 10px 0 10px;         
+}
+p{
+    line-height: 2;
+}
+hr{
+    border: dotted rgb(186, 204, 204) 5px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.Iam{
+    width: 30%;
+    margin: 10px auto 30px auto;
+}
+.btn{
+    color: #cdffd8;
+    background-color: #147BF7;
+    border: 5px solid #147BF7;
+    border-radius: 8px;
+    height: 40px;
+    width: 150px;
+    font-size: 1.15rem;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.btn:hover{
+    background-color: aqua;
+    border: 5px solid aqua;
+}
+.first-container{
+    background: linear-gradient(#cdffd8, #94b9ff);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.Arion{
+    height: 100px;
+    border-radius: 50%;
+}
+.second-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.skills{
+    display: grid;
+    grid-template-columns: 0.5fr 1.3fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    width: 60%;
+    margin: 100px auto 0 auto;
+    text-align: left;    
+}
+.image-1{
+    width: 250px;
+    height: 200px;
+}
+.image-2{
+    width: 250px;
+    height: 200px;
+}
+.here{
+    width: 30%;
+    margin: 50px auto 0 auto;
+}
+.here >a:hover{
+    color: chartreuse;
+}
+.here >a {
+    padding: 0%;
+}
+.third-container{
+    background-color: rgb(123, 196, 196);
+    margin: 0;
+    padding: 40px 0 20px 0;
+}
+.footer-link:hover{
+    color: whitesmoke;
+}
+
+@media (max-width: 800px){
+    .skills{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+    h1{
+        font-size: 5rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+}
